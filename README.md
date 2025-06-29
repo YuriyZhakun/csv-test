@@ -1,4 +1,4 @@
-RublyLabs Test Project
+RubyLabs Test Project
 
 The script fetches and processes user, post, and comment data from https://jsonplaceholder.typicode.com/.
 
