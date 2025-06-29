@@ -8,10 +8,10 @@ The script fetches and processes user, post, and comment data from https://jsonp
 3. Fetches posts – gets the latest 5 posts per user (sorted by date or by ID)  
 4. Fetches comments – gets the latest 3 comments per post (sorted by date or by ID)  
 5. Validates data – checks for required fields and logs any issues  
-6. Writes everything to a CSV file called `output.csv`
+6. Writes everything to a CSV file called "output.csv"
 
 ## Features
-- Concurrent loading – uses `Promise.all` to speed up comment fetching using axios package
+- Concurrent loading – uses "Promise.all" to speed up comment fetching using axios package
 - Retries with exponential backoff – failed API requests are retried automatically with delay  
 - Logging – logs all key actions, retries, and any issues  
 - Error handling – handles errors without stopping the whole script
@@ -32,7 +32,7 @@ DataProcessor – coordinates the full data processing flow
 
 - You can also change main settings in the "CONFIG" object at the top of the index.js file:
 const CONFIG = {
-  baseUrl: 'https://jsonplaceholder.typicode.com',
+  baseUrl: "https://jsonplaceholder.typicode.com",
   maxRetries: 3,           // Maximum number of retries
   retryDelay: 1000,        // Base delay between retries (ms)
   postsPerUser: 5,         // Number of posts per user
@@ -50,15 +50,15 @@ Unexpected runtime errors
 1. Clone or download the project folder:
 ** git clone https://github.com/your-username/rublylabs-test.git
 ** cd rublylabs-test
-2. Install dependencies (Make sure you have Node.js installed):
+2. Install (Make sure you have Node.js installed):
 ** npm install
-3. Run the script:
-** node index.js
+3. Run script:
+** npm start
 It will create a file called output.csv in the root folder
 4. You can open output.csv using:
 ** Excel or Google Sheets
 OR 
-** Terminal (type output.csv)
+** type output.csv
 
 
 
