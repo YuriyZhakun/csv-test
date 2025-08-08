@@ -48,8 +48,8 @@ Unexpected runtime errors
 
 ## Installation
 1. Clone or download the project folder:
-** git clone https://github.com/your-username/rublylabs-test.git
-** cd rublylabs-test
+** git clone https://github.com/YuriyZhakun/csv-test.git
+** cd csv-test
 2. Install (Make sure you have Node.js installed):
 ** npm install
 3. Run script:
@@ -63,4 +63,5 @@ OR
 
 
 Thank you for consideration!
+
 
